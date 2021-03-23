@@ -12,7 +12,7 @@ html {
     margin: auto;
     padding: 1rem;
     background-color: darkgreen;
-    color: lightgreen;
+    color: lightgoldenrodyellow;
     text-align: center;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -27,8 +27,7 @@ html {
 }
 
 .container {
-    /* background-color: #169620; */
-    background-color: lightgreen;
+    background-color: lightgoldenrodyellow;
 }
 
 .content {
