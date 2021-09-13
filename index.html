@@ -12,30 +12,7 @@
 </head>
 
 <body>
-    <header>
-        <div class="header">
-            We miss monkeys
-        </div>
-    </header>
-
-    <div class="container">
-        <marquee id="outer-marquee" behavior="alternate" direction="down">
-            <div class="content">
-                <marquee behavior="alternate" scrollamount="25">
-                    <div>&#128018;&#128018;&#128018;&nbsp;&nbsp;&nbsp;&#128025;&#128025;&#128025;</div>
-                </marquee>
-            </div>
-        </marquee>
-    </div>
-
-    <script type="text/javascript">
-        (function () {
-            const viewportHeight = window.visualViewport.height;
-            const marqueeRect = document.getElementById('outer-marquee').getBoundingClientRect();
-            const offset = viewportHeight - marqueeRect.top;
-            document.getElementById('outer-marquee').setAttribute('height', viewportHeight - marqueeRect.top - 4);
-        })();
-    </script>
+    
 </body>
 
 </html>

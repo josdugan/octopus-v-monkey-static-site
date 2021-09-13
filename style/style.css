@@ -1,41 +1,10 @@
 html {
     box-sizing: border-box;
+    background-color: #0033ff;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: inherit;
-}
-
-.header {
-    margin: auto;
-    padding: 1rem;
-    background-color: darkgreen;
-    color: lightgoldenrodyellow;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-@media only screen and (min-width: 812px) {
-    .header {
-        font-size: 4rem;
-    }
-}
-
-.container {
-    background-color: lightgoldenrodyellow;
-}
-
-.content {
-    font-size: 2rem;
-}
-
-@media only screen and (min-width: 812px) {
-    .content {
-        font-size: 7rem;
-    }
 }
